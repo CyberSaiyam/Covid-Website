@@ -10,6 +10,7 @@ body {
   background: linear-gradient(to bottom, #ffffcc 0%, #66ff99 100%);
 }
 
+
 /*  nav bar */
 .nav {
     height: 50px;
@@ -103,7 +104,7 @@ body {
 /* Float four columns side by side*/
 .column {
     float: left;
-    width: 25%;
+    width: 20%;
     padding: 0 10px;
   }
 
@@ -133,18 +134,42 @@ body {
   text-align: center;
   background: hsla(333, 100%, 53%, 1);
 }  
-.card img{
-    height: 50px;
-    width: 50px;
+.card img {
+    height: 50%;
+    width: 50%;
 }
 
+.card p{
+  color: white;
+}
+
+a.button1{
+    height: 35px;
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+
+  }
+  a.button1:hover{
+    color: black;
+    background-color: #FFFFFF;
+  }
 /* Option Css*/
 /* The container must be positioned relative: */
 .custom-select {
     position: relative;
     font-family: Arial;
     color: aqua;
-    margin-left: 65px;
+    margin-left: 35px;
   }
   #button {
     transition-duration: 0.4s;
@@ -155,4 +180,3 @@ body {
     color: white;
   }
   
-
